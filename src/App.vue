@@ -1,13 +1,16 @@
 <template>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Swetha/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Swetha from './components/Swetha.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
+    Swetha,
   }
 }
 </script>
